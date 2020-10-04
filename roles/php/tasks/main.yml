@@ -1,7 +1,7 @@
 ---
 - name: Add PHP repo
   apt_repository:
-    repo: deb http://ppa.launchpad.net/ondrej/php/ubuntu focal main 
+    repo: deb http://ppa.launchpad.net/ondrej/php/ubuntu bionic main  
 
 - name: Install PHP
   apt:
