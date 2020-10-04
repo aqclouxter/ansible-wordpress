@@ -50,7 +50,7 @@ logentries_set_key: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ## -- Domain configurations -- ##
 # example:
 domains:
-  - name: mysite.com
+  - name: localhost
     # Set this to what scheme is desired for the url (https://, http:// etc)
     # Note, this will be used in any search and replace if you've provided a db_import as well.
     scheme: https://
