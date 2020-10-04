@@ -27,12 +27,12 @@
     -
      role: ssh
      tags: [init, ssh]
-    -
-     role: nginx
-     tags: [nginx, web]
-    -
-     role: nginxsites
-     tags: [nginx, web, sites]
+#    -
+ #    role: nginx
+  #   tags: [nginx, web]
+  #  -
+  #   role: nginxsites
+  #   tags: [nginx, web, sites]
     -
      role: php
      tags: [init]
