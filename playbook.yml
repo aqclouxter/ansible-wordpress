@@ -7,7 +7,7 @@
   ## Example:
   ## $:> ansible-playbook playbook.yml -e "include_domains=domaina.com,domainb.com,domainc.com"
   vars:
-    domuse: "{{ include_domains | default('all') }}"
+    domuse: "{{ include_domains | default('localhost') }}"
     domains_to_use: "{{ domuse.split(',') }}"
     domskip: "{{ skip_domains | default('none') }}"
     domains_to_skip: "{{ domskip.split(',') }}"
